@@ -1,0 +1,23 @@
+{
+  "name": "Address-Book",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ebrengle/Address-Book",
+  "authors": [
+    "Eric Brengle <eric.brengle@gmail.com>"
+  ],
+  "description": "It's an address book",
+  "main": "public/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.3",
+    "lodash": "~3.1.0"
+  }
+}
