@@ -1,21 +1,22 @@
 {
   "name": "Address-Book",
   "version": "1.0.0",
-  "description": "It's an address book",
+  "description": "This is a basic address book.",
   "main": "public/index.html",
   "scripts": {
-    "test": "test": "./node_modules/karma/bin/karma start",
-    "test-once": "npm run test -- --single-run"  },
+    "test": "./node_modules/karma/bin/karma start",
+    "test-once": "npm run test -- --single-run"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ebrengle/Address-Book.git"
+    "url": "https://github.com/readeldj/Address-Book.git"
   },
-  "author": "Eric Brengle <eric.brengle@gmail.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ebrengle/Address-Book/issues"
+    "url": "https://github.com/readeldj/Address-Book/issues"
   },
-  "homepage": "https://github.com/ebrengle/Address-Book",
+  "homepage": "https://github.com/readeldj/Address-Book",
   "devDependencies": {
     "chai": "^1.10.0",
     "codeclimate-test-reporter": "0.0.4",
