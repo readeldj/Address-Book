@@ -4,15 +4,62 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Title</title>
+    <title>My Address Book</title>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
     <div class="container">
-      <h1>My Site Title</h1>
+      <h1>Address Book</h1>
+      <button class=newContact>New Contact</button>
+    </div>
+    <div class="contactForm hidden">
+      <h2>Enter Your Information</h2>
+      <form action="">
+        <ul class="formList">
+          <li>
+            <label for="User">Name</label>
+            <input type="text", id="User", name="name", placeholder="Name" />
+          </li>
+          <li>
+            <label for="User">Phone</label>
+            <input type="text", id="User", name="phone", placeholder="111-222-3333" />
+          </li>
+          <li>
+           <label for="User">Email</label>
+           <input type="email", id="User", name="email", placeholder="Email@email.com" />
+          </li>
+          <li>
+            <label for="User">Twitter</label>
+            <input type="text", id="User", name="twitter", placeholder="Twitter ID" />
+          </li>
+          <li>
+            <label for="User">Photo URL</label>
+            <input type="url", id="User", name="photo", placeholder="Link to URL" />
+          </li>
+          <li>
+          <input type="submit", value="Submit" />
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div class="contactTable">
+      <table id="table">
+        <thead>
+          <tr>
+            <td>Photo</td>
+            <td>Name</td>
+            <td>Phone Number</td>
+            <td>Email</td>
+            <td>Twitter</td>
+            <td></td>
+          </tr>
+        </thead>
+      </table>
     </div>
 
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
   </body>
 </html>

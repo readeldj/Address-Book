@@ -1,0 +1,30 @@
+.formList {
+  list-style-type: none;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background-color: #6acafa;
+}
+
+.container, .contactForm {
+  text-align: center;
+}
+
+.newContact {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactTable {
+  background: white;
+}
+
+#table thead {
+  background: #F5F5F5;
+  font-weight: bold;
+  background-color: white;
+}
