@@ -28,3 +28,7 @@ body {
   font-weight: bold;
   background-color: white;
 }
+
+.pic {
+  max-width: 300px;
+}
